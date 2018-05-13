@@ -16,6 +16,7 @@
             "Host": "tvhome.club",
             "Connection": "keep-alive"
         },
+        "pickuptorrents": 1,
         "torrentpublishtime": 120,
         "torrentsize": 40,
         "seekers": 1,
@@ -40,6 +41,7 @@
             "Host": "pt.gztown.net",
             "Connection": "keep-alive"
         },
+        "pickuptorrents": 1,
         "torrentpublishtime": 120,
         "torrentsize": 40,
         "seekers": 1,
@@ -64,6 +66,7 @@
             "Host": "hdhome.org", 
             "Connection": "keep-alive"
         }, 
+        "pickuptorrents": 1,
         "torrentpublishtime": 120, 
         "torrentsize": 40,
         "seekers": 1,
@@ -88,6 +91,7 @@
             "Host": "ourbits.club", 
             "Connection": "keep-alive"
         }, 
+        "pickuptorrents": 1,
         "torrentpublishtime": 120, 
         "torrentsize": 100, 
         "seekers": 1,

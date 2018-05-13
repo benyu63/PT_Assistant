@@ -141,13 +141,13 @@ def main():
                 mylog.debug( content )
                 continue
 
+        if ( pt_site['pickuptorrents'] == 0 ): continue
         pstr1[0] = html
         pstr1[0] = ExtractHTML( pt_site['torrentstablekey'], '<table', '/table>', pstr1 )  #  提取种子表
         if ( pstr1[0] == '' ):
             mylog.warning( url + ' could not extract the torrents table.' )
             mylog.debug( content )
             continue
-#        mylog.debug( 'start looking for the torrents in it.' )
         c1 = 0; c2 = 0; c3 = 0
         content = ''  #  找到的种子存在这里
         for i in range(100):  #  前100个种子
