@@ -242,7 +242,9 @@ while ( True ):
         continue
     if ( i == 24 ): #  判断当前是否处于免打扰时间段
         mylog.info( 'bed time .. no disturbing .. \'ll be back in 30 minutes.' )
-        time.sleep( 1800 )
+#        time.sleep( 1800 )
     else:
         main()
-        time.sleep( c )
+#        time.sleep( c )
+    break
+exit()
