@@ -14,7 +14,7 @@ to help people sign in on a PT website, pull torrents to their email automatical
 1. 创建一个目录
 2. 下载最新版本的源码到刚创建的目录
 3. 使用文本编辑器编辑两个json文件：
-  4.1. pt_sites.json，对于ourbits, hdhome, gztown, tvhome这四个站把自己的登录cookie加进去就行了，别的pt站没邀请进不去所以没测试，理论上应该无需改动，按注释填写内容即可
+  3.1. pt_sites.json，对于ourbits, hdhome, gztown, tvhome这四个站把自己的登录cookie加进去就行了，别的pt站没邀请进不去所以没测试，理论上应该无需改动，按注释填写内容即可
     "address": 站点url地址，需以/结尾
     "torrents": 种子页面分地址
     "attendance": 签到页面分地址
@@ -30,17 +30,16 @@ to help people sign in on a PT website, pull torrents to their email automatical
     "signed": "签到得魔力"
     以上三字段配合使用，用于判断是否有效页面，是否需签到，一般无需修改
     自行增加pt站点时，对于NexusPHP类站点，理论上只需修改address, headers:{Referer, Cookie, Host}这四个字段，以及torrentpublishtime, torrentsize, seekers这三个筛选条件即可
-  4.2. pt_init.json，改为自己的邮箱smtp服务器信息，用户名，及密码
+  3.2. pt_init.json，改为自己的邮箱smtp服务器信息，用户名，及密码
     "debug": 日志记录级别，可以设成0，1，2，数值越小日志内容越简单
     "interval": 轮询间隔，单位秒，docker版专用，mac和win不必理会
     “ndisturb": 免打扰时段，0~23之间的任意整数，设置之后在此时段内不轮询
-    "mail_host": 此字段开始往下是smtp邮件服务器设置，按需设置
-5. 去python官网下载最新版的python3，安装到mac osx或windows10系统中
-6. 在终端命令行方式，用pip下载第三方requests库，这两步不会的可以自己去百度，这里不细说
-7. 安装完毕后还是在终端命令行状态确认一下能够进入python3，出现'>>>'提示符后，输入'import requests'命令，按回车键后未出现错误提示，能到这步说明python环境已经搭建成功
-8. 输入‘exit()命令回车，退出python回到命令行
-
-根据系统环境不同，接下来的操作过程也不相同，接下来我分别介绍windows，及mac osx环境的具体安装方法
+    "mail_host": 此字段开始往下是smtp邮件服务器设置，按需设置
+4. 去python官网下载最新版的python3，安装到mac osx或windows10系统中
+5. 在终端命令行方式，用pip下载第三方requests库，这两步不会的可以自己去百度，这里不细说
+6. 安装完毕后还是在终端命令行状态确认一下能够进入python3，出现'>>>'提示符后，输入'import requests'命令，按回车键后未出现错误提示，能到这步说明python环境已经搭建成功
+7. 输入‘exit()命令回车，退出python回到命令行
+8. 根据系统环境不同，接下来的操作过程也不相同，接下来我分别介绍windows，及mac osx环境的具体安装方法
 
 mac osx：
 9. 还是在终端命令行状态下，输入'python3 pt.py'回车，确定程序可以正常运行
