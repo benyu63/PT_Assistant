@@ -1,0 +1,98 @@
+[
+    {
+        "address": "https://tvhome.club/",
+        "torrents": "torrents.php",
+        "attendance": "attendance.php",
+        "torrentstablekey": " class=\"torrents\"",
+        "encoding": "utf-8",
+        "headers": {
+            "Referer": "https://tvhome.club/torrents.php",
+            "Upgrade-Insecure-Requests": "1",
+            "Accept-Language": "zh-CN,zh;q=0.9",
+            "Accept-Encoding": "gzip, deflate",
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "Cookie": "",
+            "Host": "tvhome.club",
+            "Connection": "keep-alive"
+        },
+        "torrentpublishtime": 120,
+        "torrentsize": 40,
+        "seekers": 1,
+        "welcomeback": "\u6b22\u8fce\u56de\u6765",
+        "nsigned": "\u7b7e\u5230\u5f97\u9b54\u529b",
+        "signed": "\u7b7e\u5230\u5df2\u5f97"
+    },
+    {
+        "address": "https://pt.gztown.net/", 
+        "torrents": "torrents.php?incldead=1&spstate=2&inclbookmarked=0&search=&search_area=0&search_mode=0",
+        "attendance": "attendance.php",
+        "torrentstablekey": " class=\"torrents\"",
+        "encoding": "utf-8",
+        "headers": {
+            "Referer": "https://pt.gztown.net/torrents.php",
+            "Upgrade-Insecure-Requests": "i1",
+            "Accept-Language": "zh-CN,zh;q=0.9",
+            "Accept-Encoding": "gzip, deflate",
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "Cookie": "",
+            "Host": "pt.gztown.net",
+            "Connection": "keep-alive"
+        },
+        "torrentpublishtime": 120,
+        "torrentsize": 40,
+        "seekers": 1,
+        "welcomeback": "\u6b22\u8fce\u56de\u6765",
+        "nsigned": "\u7b7e\u5230\u5f97\u9b54\u529b",
+        "signed": "\u7b7e\u5230\u5df2\u5f97"
+    }, 
+    {
+        "address": "https://hdhome.org/", 
+        "torrents": "torrents.php?standard1=1&standard2=1&incldead=1&spstate=2&inclbookmarked=0&search=&search_area=0&search_mode=0", 
+        "attendance": "attendance.php",
+        "torrentstablekey": " class=\"torrents\"", 
+        "encoding": "utf-8", 
+        "headers": {
+            "Referer": "https://hdhome.org/torrents.php", 
+            "Upgrade-Insecure-Requests": "1", 
+            "Accept-Language": "zh-CN,zh;q=0.9", 
+            "Accept-Encoding": "gzip, deflate", 
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36", 
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8", 
+            "Cookie": "",
+            "Host": "hdhome.org", 
+            "Connection": "keep-alive"
+        }, 
+        "torrentpublishtime": 120, 
+        "torrentsize": 40,
+        "seekers": 1,
+        "welcomeback": "\u6b22\u8fce\u56de\u6765", 
+        "nsigned": "\u7b7e\u5230\u5f97\u9b54\u529b", 
+        "signed": "\u7b7e\u5230\u5df2\u5f97"
+    }, 
+    {
+        "address": "https://ourbits.club/", 
+        "torrents": "torrents.php?standard1=1&standard5=1&incldead=1&spstate=2&inclbookmarked=0&search=&search_area=0&search_mode=0", 
+        "attendance": "attendance.php",
+        "torrentstablekey": " class=\"torrents\"", 
+        "encoding": "utf-8", 
+        "headers": {
+            "Referer": "https://ourbits.club/torrents.php", 
+            "Upgrade-Insecure-Requests": "1", 
+            "Accept-Language": "zh-CN,zh;q=0.9", 
+            "Accept-Encoding": "gzip, deflate", 
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36", 
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8", 
+            "Cookie": "",
+            "Host": "ourbits.club", 
+            "Connection": "keep-alive"
+        }, 
+        "torrentpublishtime": 120, 
+        "torrentsize": 100, 
+        "seekers": 1,
+        "welcomeback": "\u6b22\u8fce\u56de\u6765", 
+        "nsigned": "\u7b7e\u5230\u5f97\u9b54\u529b", 
+        "signed": "\u7b7e\u5230\u5df2\u5f97"
+    }
+]
