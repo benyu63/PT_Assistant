@@ -1,0 +1,15 @@
+{
+    "debug": 2,
+    "interval": 420,
+    "ndisturb": [0,1,2,3,4,5,6,7,13,14,15,16],
+    "encoding": "utf-8",
+    "sitesfilename": "pt_sites.json",
+    "torrentslogname": "pt.log",
+    "mail_host": "smtp.163.com",
+    "mail_ssl": 0,
+    "user": "",
+    "pass": "",
+    "from": "",
+    "to": "",
+    "subject": "got torrent(s) for downloading"
+}
